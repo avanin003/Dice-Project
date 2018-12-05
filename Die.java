@@ -10,4 +10,7 @@ public class Die{
 		this.sides = sides;
 		this.value = (int)(Math.random()*6)+1;
 	}
+	public int getValue(){
+		return value;
+	}
 }
