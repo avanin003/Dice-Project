@@ -16,4 +16,7 @@ public class Die{
 	public void roll(){
 		value =(int)(Math.random()*sides)+1;
 	}
+	public String toString(){
+		return "Number of sides: "+sides+" , Value: "+value;
+	}
 }
